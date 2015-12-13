@@ -1831,9 +1831,14 @@ This looks like this:
 		Set the line-height to 27px
 <<<<<<< HEAD
 }*/
-
+@media only screen and (max-width: 1330px) {
+	.home .add-nav em {
+		font-size: 24px;
+		line-height: 27px;
+	}
+}
 /* TODO - We need to make major changes at 950 pixels and below.  Finish the media Query*/
-@media{
+@media only screen and (max-width: 950px){
 	#header{
 		position:relative;
 		z-index:1000;
@@ -2163,13 +2168,9 @@ This looks like this:
 	.trip-section .bg{
 		background:url(/content/img29-t.jpg) no-repeat;
 		background-size:cover;
-} */
-@media only screen and (max-width: 1330px) {
-	.home .add-nav em {
-		font-size: 24px;
-		line-height: 27px;
 	}
 }
+
 
 #wuf-adv { display: none !important; }
 
